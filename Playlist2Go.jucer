@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="nW5ipB" name="Playlist2Go" projectType="guiapp" version="1.1.0"
+              bundleIdentifier="de.danlin.Playlist2Go" includeBinaryInAppConfig="1"
+              jucerVersion="3.1.0">
+  <MAINGROUP id="vrrVdF" name="Playlist2Go">
+    <FILE id="CpgY9n" name="icon.png" compile="0" resource="1" file="icon.png"/>
+    <GROUP id="{7B6E382C-2F9C-C230-694D-473D47AAF9AB}" name="Source">
+      <FILE id="O5Tny7" name="CopyThread.cpp" compile="1" resource="0" file="Source/CopyThread.cpp"/>
+      <FILE id="WzwQeR" name="CopyThread.h" compile="0" resource="0" file="Source/CopyThread.h"/>
+      <FILE id="ukRdvq" name="MainContentComponent.cpp" compile="1" resource="0"
+            file="Source/MainContentComponent.cpp"/>
+      <FILE id="kgRm1N" name="MainContentComponent.h" compile="0" resource="0"
+            file="Source/MainContentComponent.h"/>
+      <FILE id="aWV6XE" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX" smallIcon="" bigIcon="CpgY9n">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" osxSDK="default" osxCompatibility="default" osxArchitecture="default"
+                       isDebug="1" optimisation="1" targetName="Playlist2Go"/>
+        <CONFIGURATION name="Release" osxSDK="default" osxCompatibility="default" osxArchitecture="default"
+                       isDebug="0" optimisation="2" targetName="Playlist2Go"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="Submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="Submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="Submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="Submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="Submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="Submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="Submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="Submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="Submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="Submodules/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+    <VS2013 targetFolder="Builds/VisualStudio2013" bigIcon="CpgY9n">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="Playlist2Go"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="2" targetName="Playlist2Go"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../modules"/>
+        <MODULEPATH id="juce_core" path="../../modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../modules"/>
+        <MODULEPATH id="juce_events" path="../../modules"/>
+        <MODULEPATH id="juce_graphics" path="../../modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../modules"/>
+        <MODULEPATH id="juce_opengl" path="../../modules"/>
+      </MODULEPATHS>
+    </VS2013>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULES id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_devices" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_opengl" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>

@@ -1,2 +1,6 @@
 Playlist2Go
 ===========
+
+## You’re a DeeJay…
+
+and invited to the next BBQ with your friends… with the words: „please bring some nice background tunes for the garden stereo…“. Or you want to configure your emergency thumbdrive for the next gigs. Or you just want to help a friend with your personal best-of-the-90s-CD because he is all into modern EDM and doesn’t know Jack about the 90s. Usually you use playlists on your DJ-app for this. Well sorted and developed in months and some of them even in years. So you know all about this music. But if you want to copy it on a thumbdrive or a CD you have to search every single tune and get it collected from somewhere out of your connected drives. This annoying work is now done by PLAYLIST2GO. Export the desired playlist in m3u format out of your chosen music program (like MixVibes’ CROSS) to your HDD for future reference. Now open PLAYLIST2GO and drop this m3u-file there. It will ask you where to put the desired files (on your HDD, thumbdrive,…, even into your desired clouddrive). It will simply collect the tunes and copy it in seconds. Don’t spend another two hours in collecting the music of your playlists on a carrier. Use PLAYLIST2GO instead.
